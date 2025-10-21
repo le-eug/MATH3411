@@ -10,9 +10,14 @@ numerators_string: str = input()
 numerators = [int(i) for i in numerators_string.split(',')]
 probabilities = [i for i in numerators]
 
+# add dummies
+while radix != 2 and len(probabilities) % (radix - 1) != 1:
+    probabilities.append(0)
+
 probabilities.sort()
 merged: list[float] = []
 
+# Huffman Algo
 while True:
     to_merge: list[float] = probabilities[:radix]
     leftover: list[float] = probabilities[radix:]

@@ -24,4 +24,4 @@ print('Enter lengths:')
 init_input: str = input()
 lengths = [int(item.strip()) for item in init_input.split(',')]
 
-print(f'Minimum l: {find_l(radix, lengths)}')
+print(f'Minimum ℓ: {find_l(radix, lengths)}')
