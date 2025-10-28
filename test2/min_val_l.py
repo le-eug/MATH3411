@@ -1,5 +1,4 @@
-# INSTRUCTIONS:
-# Please enter the lengths separated by commas, excluding the 'ℓ'
+import re
 
 def kraft_mcmillan_total(radix: int, lengths: list[int]) -> float:
     total: float = 0
@@ -21,7 +20,6 @@ print('Enter radix:')
 radix: int = int(input())
 
 print('Enter lengths:')
-init_input: str = input()
-lengths = [int(item.strip()) for item in init_input.split(',')]
+lengths = [int(i) for i in re.findall(r'\d', input())]
 
 print(f'Minimum ℓ: {find_l(radix, lengths)}')
