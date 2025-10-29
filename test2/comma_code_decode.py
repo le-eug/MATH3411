@@ -26,7 +26,7 @@ def comma_code_decode(comma_code: list[str], encoded_message: str) -> str:
     curr_num: str = ''
     for digit in encoded_message:
         curr_num += digit
-        if digit == '0':
+        if digit == '0' or len(curr_num) == 4:
             message += get_symbol(comma_code, curr_num)
             curr_num = ''
 
