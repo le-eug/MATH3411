@@ -32,7 +32,7 @@ codes: list[int] = [0] * len(lengths)
 for i in range(len(lengths)):
     if i == 0:
         continue
-    codes[i] = (codes[i - 1] + 1) * radix ** (lengths[i] - lengths[i - 1])
+    codes[i] = (codes[i - 1] + 1) * radix ** (lengths[i] - lengths[i - 1]) # cool formula lol
 
 if radix == 2:
     answer: str = bin(codes[len(lengths) - 1])

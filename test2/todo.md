@@ -35,12 +35,7 @@
 
 ## Q8
 
-- Markov huffman
-  - [ ] encode
-  - [ ] decode
-  - ...
-  - so much stuff, maybe best to do it by hand
-  - attempt with ai
+- [x] thank u andrei
 
 ## Q9
 
