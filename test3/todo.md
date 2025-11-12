@@ -9,11 +9,13 @@
 
 ## Q2
 
-- [ ] Binary Markov Entropy
+- [x] Binary Markov Entropy
 
 ## Q3
 
 - [ ] avg codeword length Shannon-Fano for S^n as n->inf
+- [ ] length of the mth longest/shortest codeword in radix r SF code for nth extension
+- [ ] prob of the mth longest/shortest codeword in radix r SF code for nth extension
 
 ## Q4
 
