@@ -13,9 +13,9 @@
 
 ## Q3
 
-- [ ] avg codeword length Shannon-Fano for S^n as n->inf
-- [ ] length of the mth longest/shortest codeword in radix r SF code for nth extension
-- [ ] prob of the mth longest/shortest codeword in radix r SF code for nth extension
+- [x] avg codeword length Shannon-Fano for S^n as n->inf
+- [x] length of the mth longest/shortest codeword in radix r SF code for nth extension
+- [x] prob of the mth longest/shortest codeword in radix r SF code for nth extension
 
 ## Q4
 
@@ -29,12 +29,13 @@
 
 ## Q6
 
-- [ ] calc phi
-- [ ] mod question
+- [x] calc phi
+- [x] mod question
 
 ## Q7
 
 - [ ] num primitive elements
+- [ ] state all primitive elements
 
 ## Q8
 
