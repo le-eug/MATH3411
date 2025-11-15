@@ -23,7 +23,9 @@
 
 ## Q5
 
-- [ ] Num units
+- [x] Num units
+- [x] Order
+- [x] Inverse
 
 ## Q6
 
