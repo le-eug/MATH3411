@@ -39,11 +39,12 @@
 
 ## Q8
 
-- [ ] Fermat factorisation
+- [x] Fermat factorisation
 
 ## Q9
 
 - [ ] pseudoprime
+- [ ] strong pseudoprime
 
 ## Q10
 
