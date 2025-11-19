@@ -34,8 +34,9 @@
 
 ## Q7
 
-- [ ] num primitive elements
-- [ ] state all primitive elements
+- [ ] num primitive elements for Z_n
+- [ ] num primitive elements for GF
+- [x] state all primitive elements Z_n
 
 ## Q8
 
@@ -43,8 +44,8 @@
 
 ## Q9
 
-- [ ] pseudoprime
-- [ ] strong pseudoprime
+- [x] pseudoprime
+- [x] strong pseudoprime
 
 ## Q10
 
