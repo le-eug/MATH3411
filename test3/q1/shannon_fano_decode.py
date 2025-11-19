@@ -28,7 +28,7 @@ def generate_codes(lengths, radix=2):
 print('Enter probabilities (copy and paste entire line):')
 prob_input = input()
 
-probs = [float(i) for i in re.findall(r"\d\.\d", prob_input)]
+probs = [float(i) for i in re.findall(r"\d+\.\d+", prob_input)]
 
 print('Enter radix:')
 radix = int(input())
@@ -36,8 +36,7 @@ radix = int(input())
 print('Enter encoded message:')
 encoded_msg = input()
 
-lengths = []
-for prob in probs:
-    lengths.append(math.ceil(-math.log(prob, radix)))
+lengths = [math.ceil(-math.log2(p)) for p in probs]
 
-print(generate_codes(lengths, 3))
+for i, code in enumerate(generate_codes(lengths, radix)):
+    print(f"s{i + 1}: {code}")
